@@ -2,6 +2,19 @@
  `` https://github.com/angellsla/music-player ``<br>
 ----
 
+**创建表**: 
+```txt
+CREATE TABLE music (  
+    id INT AUTO_INCREMENT PRIMARY KEY,  
+    name VARCHAR(255) NOT NULL,  
+    audio_url VARCHAR(255),  
+    singer VARCHAR(255),  
+    album VARCHAR(255),  
+    cover VARCHAR(255),  
+    time VARCHAR(10)  
+);
+```
+
 **表名称**：`music`
 
 **表数据示例**：
